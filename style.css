@@ -1,0 +1,293 @@
+.clear{
+    clear: both;
+}
+
+.corps {
+    position: absolute;
+    top: 200px;
+    left: 110px;
+    height: 280px;
+    width: 734px;
+    background: linear-gradient(to bottom, #141414, #5C5C5C);
+    border-radius: 10px;
+}
+
+.touches {
+    width: 660.59px;
+    height: 135px;
+    position: absolute;
+    bottom: 2px;
+    left: 38px;
+    display: flex;
+    justify-content: center;
+}
+
+.touches_container {
+    width: 128px;
+    display: flex;
+}
+
+.blanche {
+    width: 18.28px;
+    background-color: white;
+    border: 0.016px solid black;
+    box-shadow: 0 -8px 2px #262626;
+}
+
+.noires {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 128px;
+}
+
+.noires2 {
+    left: 128px;
+}
+
+.noires3 {
+    left: 256px;
+}
+
+.noires4 {
+    left: 384px;
+}
+
+.noires5 {
+    left: 512px;
+}
+
+.noire {
+    position: absolute;
+    height: 90px;
+    width: 11px;
+    background-color: black;
+    top: 0;
+    box-shadow: 0 -8px 2px #141414;
+}
+
+.n1 {
+    left: 13px;
+}
+
+.n2 {
+    left: 33px;
+}
+
+.n3 {
+    left: 68px;
+}
+
+.n4 {
+    left: 88px;
+}
+
+.n5 {
+    left: 106px;
+}
+
+.molette {
+    position: absolute;
+    bottom: 50px;
+    left: 10px;
+    width: 12px;
+    height: 60px;
+    background: linear-gradient(black, #595959);
+    box-shadow: 3px 1px 5px black;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    
+}
+
+.creux_molette {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 30px;
+    height: 10px;
+    background: linear-gradient(#595959, black);
+}
+
+.boutons_3_4 {
+    width: 55px;
+    position: absolute;
+    top: 65px;
+    left: 500px;
+}
+
+.boutons_2_2 {
+    width: 55px;
+    position: absolute;
+    top: 70px;
+    left: 450px;
+}
+
+.boutons_3_2 {
+    width: 70px;
+    position: absolute;
+    top: 70px;
+    left: 250px;
+}
+
+.boutons_7_1 {
+    position: absolute;
+    top: 110px;
+    left: 170px;
+}
+
+.boutons_5_1 {
+    position: absolute;
+    top: 110px;
+    left: 320px;
+}
+
+.boutons_3_1 {
+    position: absolute;
+    top: 110px;
+    left: 430px;
+}
+
+.btn_blanc_rond{
+    width: 10px;
+    height: 10px;
+    background-color: #DDDDDD;
+    border-radius: 50%;
+    float: left;
+    margin-right: 6px;
+    margin-bottom: 5px;
+    box-shadow: 2px 1px 2px black;
+}
+
+.btn_rec {
+    width: 12px;
+    height: 7px;
+    box-shadow: 2px 1px 2px black;
+    float: left;
+    margin-right: 8px;
+    margin-bottom: 10px;
+}
+
+.btn_rec_blanc {
+    background-color: #DDDDDD;
+}
+
+.btn_rec_gris {
+    background-color: #757776;
+}
+
+.ombre_bouton_volume {
+    position: absolute;
+    top: 70px;
+    left: 200px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.bouton_volume {
+    position: absolute;
+    top: 2.3px;
+    left: 2.3px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #262626;
+}
+
+.bouton_on {
+    position: absolute;
+    top: 77px;
+    left: 170px;
+}
+
+.separation {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #141414;
+    box-shadow: 0 3px 0 black;
+}
+
+.hp{
+    position: absolute;
+    width: 150px;
+    height: 120px;
+    background: linear-gradient(to bottom, #141414 50%, #262626);
+    z-index: 100;
+}
+
+.hp_gauche{
+    left: 0;
+    box-shadow: 2px 12px 2px black;
+    border-top-left-radius: 10px;
+}
+
+.hp_droite{
+    right: 0;
+    box-shadow: -2px 12px 2px black;
+    border-top-right-radius: 10px;
+}
+
+.hp_int {
+    box-sizing: border-box;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 15px 30px;
+    padding: 25px;
+}
+
+.hp_int > div {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #262626;
+}
+
+.ecran_container {
+    width: 120px;
+    height: 90px;
+    background-color: black;
+    position: absolute;
+    top: 10px;
+    left: 320px;
+    z-index: 100;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.boutons_6_1 {
+    position: absolute;
+    bottom: 5px;
+    left: 15px;
+}
+
+.ecran{
+    box-sizing: border-box;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 100px;
+    height: 45px;
+    background-color: aquamarine;
+    border: 10px solid #DDDDDD;
+}
+
+.nom{
+    color: #DDDDDD;
+    text-align: center;
+}
+
+.modele{
+    position: absolute;
+    font-size: 10px;
+    font-weight: bold;
+    top: 50px;
+    right: 155px;
+    color: #DDDDDD;
+}
